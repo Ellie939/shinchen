@@ -114,15 +114,15 @@ struct ContentView: View {
                 // 左腿紅色三角圖案
                 Rectangle()
                     .trim(from: 0, to: 0.5)
-                    .frame(width: 40, height: 50)
+                    .frame(width: 40, height: 45)
                     .foregroundStyle(Color("patternRed"))
                     .overlay(
                         Rectangle()
                             .trim(from: 0, to: 0.5)
                             .stroke(.black, lineWidth: 4)
                     )
-                    .rotationEffect(.degrees(-122))
-                    .offset(x: -8, y: 42)
+                    .rotationEffect(.degrees(-119))
+                    .offset(x: -7, y: 42)
                 
                 // 三角圖案
                 Rectangle()
@@ -233,7 +233,7 @@ struct ContentView: View {
                 
                 // 右手衣服
                 RoundedRectangle(cornerRadius: 10)
-                .frame(width: 60, height: 140)
+                .frame(width: 60, height: 150)
                 .foregroundStyle(Color("shirtBlue"))
                 .overlay(
                     RoundedRectangle(cornerRadius: 10)
@@ -464,7 +464,7 @@ struct ContentView: View {
                     .frame(width: 37, height: 54)
                     .foregroundStyle(Color("mouthRed"))
                     .rotationEffect(.degrees(27))
-                    .offset(x: -47, y: 72)
+                    .offset(x: -47, y: 70)
                 
                 
                 // 腮紅
