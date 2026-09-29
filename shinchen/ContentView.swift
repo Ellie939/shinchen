@@ -337,10 +337,10 @@ struct ContentView: View {
                                     bottomTrailingRadius: 0,
                                     topTrailingRadius: 70
                                 )
-                    .frame(width: 40, height: 100)
+                    .frame(width: 40, height: 120)
                     .foregroundStyle(.black)
                     .rotationEffect(.degrees(-10))
-                    .offset(x: 125, y: -70)
+                    .offset(x: 125, y: -65)
                 
                 
                 // 右耳
